@@ -9,11 +9,11 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold flex items-center gap-2 mb-4">
               <Heart className="w-6 h-6 fill-primary text-primary" />
-              LoveBox Gifts
+              Teasers
             </h3>
             <p className="text-secondary-foreground/80 mb-4">
               Making college love stories extra special with curated gift hampers, 
-              delivered right to your campus.
+              delivered right to your campus. Pay easily via PhonePe!
             </p>
             <div className="flex gap-4">
               <a
@@ -40,13 +40,16 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-secondary-foreground/80">
               <li>
+                <a href="#flowers" className="hover:text-primary transition-colors">Flowers</a>
+              </li>
+              <li>
+                <a href="#chocolates" className="hover:text-primary transition-colors">Chocolates</a>
+              </li>
+              <li>
                 <a href="#products" className="hover:text-primary transition-colors">Gift Hampers</a>
               </li>
               <li>
                 <a href="#how-it-works" className="hover:text-primary transition-colors">How It Works</a>
-              </li>
-              <li>
-                <a href="#faq" className="hover:text-primary transition-colors">FAQs</a>
               </li>
               <li>
                 <a href="https://wa.me/919876543210" className="hover:text-primary transition-colors">Track Order</a>
@@ -86,7 +89,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-secondary-foreground/20 mt-8 pt-8 text-center text-sm text-secondary-foreground/60">
-          <p>© 2025 LoveBox Gifts. Made with ❤️ for college couples.</p>
+          <p>© 2025 Teasers. Made with ❤️ for college couples.</p>
           <p className="mt-2">
             <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
             {" • "}
