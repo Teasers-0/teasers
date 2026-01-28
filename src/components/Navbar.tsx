@@ -6,9 +6,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { href: "#products", label: "Gift Hampers" },
+    { href: "#flowers", label: "Flowers" },
+    { href: "#chocolates", label: "Chocolates" },
+    { href: "#products", label: "Hampers" },
     { href: "#how-it-works", label: "How It Works" },
-    { href: "#testimonials", label: "Reviews" },
     { href: "#faq", label: "FAQs" },
   ];
 
@@ -24,7 +25,7 @@ const Navbar = () => {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 font-bold text-xl text-foreground">
             <Heart className="w-6 h-6 fill-primary text-primary" />
-            LoveBox
+            Teasers
           </a>
 
           {/* Desktop Nav */}

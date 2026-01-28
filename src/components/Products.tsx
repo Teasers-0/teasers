@@ -49,12 +49,12 @@ const Products = () => {
       <div className="container mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <span className="text-primary font-medium text-sm uppercase tracking-wider">Choose Your Love Package</span>
+          <span className="text-primary font-medium text-sm uppercase tracking-wider">Complete Gift Packages</span>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mt-2 mb-4">
-            Gift Hampers for Every Budget 🎀
+            Premium Gift Hampers 🎀
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            From sweet gestures to grand surprises — we've got the perfect gift for your special someone.
+            All-in-one curated hampers — flowers, chocolates, teddy & more in one beautiful package!
           </p>
         </div>
 
@@ -67,7 +67,7 @@ const Products = () => {
 
         {/* Bottom Note */}
         <p className="text-center text-sm text-muted-foreground mt-8">
-          🎯 All prices inclusive of campus delivery • 📦 Gift wrapping included
+          🎯 All prices inclusive of campus delivery • 📦 Gift wrapping included • 💳 Pay via PhonePe
         </p>
       </div>
     </section>
