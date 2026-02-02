@@ -3,9 +3,9 @@ import ProductCard from "./ProductCard";
 const Products = () => {
   const products = [
     {
-      name: "Sweet Start 🎁",
-      price: 499,
-      originalPrice: 699,
+      name: "Sweet Start 💌",
+      price: 399,
+      originalPrice: 599,
       items: [
         "Box of Premium Chocolates",
         "Handwritten Love Note",
@@ -15,9 +15,9 @@ const Products = () => {
       image: "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=500&h=500&fit=crop",
     },
     {
-      name: "Love Bundle 💝",
-      price: 999,
-      originalPrice: 1299,
+      name: "Heart Stealer 💝",
+      price: 899,
+      originalPrice: 1199,
       items: [
         "Premium Chocolate Box",
         "Fresh Red Roses (6 stems)",
@@ -29,9 +29,9 @@ const Products = () => {
       image: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=500&h=500&fit=crop",
     },
     {
-      name: "Ultimate Romance 👑",
-      price: 1999,
-      originalPrice: 2499,
+      name: "Make It Official 💎",
+      price: 1299,
+      originalPrice: 1699,
       items: [
         "Luxury Chocolate Assortment",
         "Fresh Rose Bouquet (12 stems)",
