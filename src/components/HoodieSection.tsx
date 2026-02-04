@@ -5,7 +5,7 @@ import { Sparkles, MessageCircle } from "lucide-react";
 const HoodieSection = () => {
   const handleCustomize = () => {
     const message = "Hi! I want to customize a couple hoodie with our names/photo 👕💕";
-    window.open(`https://wa.me/919876543210?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/8180895628?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
@@ -32,8 +32,8 @@ const HoodieSection = () => {
               Matching Couple Hoodies 👕💕
             </h2>
             <p className="text-muted-foreground mb-6 text-lg">
-              Twin with your bae! Get premium cotton hoodies customized with your names, 
-              initials, or a special photo. The ultimate relationship flex. 
+              Twin with your bae! Get premium cotton hoodies customized with your names,
+              initials, or a special photo. The ultimate relationship flex.
             </p>
 
             {/* Features */}

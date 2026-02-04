@@ -1,4 +1,7 @@
 import ProductCard from "./ProductCard";
+import hamper399 from "../assets/399-hamper.jpg";
+import hamper899 from "../assets/899-hamper.png";
+import hamper1299 from "../assets/1299-hamper.jpg";
 
 const Products = () => {
   const products = [
@@ -7,40 +10,43 @@ const Products = () => {
       price: 399,
       originalPrice: 599,
       items: [
-        "Box of Premium Chocolates",
-        "Handwritten Love Note",
-        "Rose Petals Confetti",
-        "Gift Wrapped with Ribbon",
+        "Cadbury Silk",
+        "Rose",
+        "Teddy",
+        "Small Ring",
+        "Love Greeting Card",
       ],
-      image: "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=500&h=500&fit=crop",
+      image: hamper399,
     },
     {
       name: "Heart Stealer 💝",
       price: 899,
       originalPrice: 1199,
       items: [
-        "Premium Chocolate Box",
-        "Fresh Red Roses (6 stems)",
-        "Cute Teddy Bear",
-        "Personalized Photo Card",
-        "Premium Gift Box",
+        "Cadbury Silk",
+        "KitKat",
+        "Teddy",
+        "Love Greating Card",
+        "Pair of Bracelet",
+        "Propose Card",
+        "Golden Rose",
       ],
       popular: true,
-      image: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=500&h=500&fit=crop",
+      image: hamper899,
     },
     {
       name: "Make It Official 💎",
       price: 1299,
       originalPrice: 1699,
       items: [
-        "Luxury Chocolate Assortment",
-        "Fresh Rose Bouquet (12 stems)",
-        "Giant Teddy Bear",
-        "Couple Hoodie Set",
-        "Personalized Video Message",
-        "Premium Wooden Gift Box",
+        "Valentine Special Cadbury",
+        "Red-golden rose",
+        "T-shirt",
+        "Teddy",
+        "Love Greeting Card",
+        "Propse Card",
       ],
-      image: "https://images.unsplash.com/photo-1582142306909-195724d33ffc?w=500&h=500&fit=crop",
+      image: hamper1299,
     },
   ];
 

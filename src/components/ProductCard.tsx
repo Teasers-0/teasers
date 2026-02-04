@@ -14,7 +14,7 @@ interface ProductCardProps {
 const ProductCard = ({ name, price, originalPrice, items, popular, image }: ProductCardProps) => {
   const handleOrder = () => {
     const message = `Hi! I want to order the ${name} hamper (₹${price}) 💝`;
-    window.open(`https://wa.me/919876543210?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/8180895628?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
@@ -24,7 +24,7 @@ const ProductCard = ({ name, price, originalPrice, items, popular, image }: Prod
           Most Popular 🔥
         </Badge>
       )}
-      
+
       {/* Image */}
       <div className="aspect-square overflow-hidden">
         <img src={image} alt={name} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
@@ -33,7 +33,7 @@ const ProductCard = ({ name, price, originalPrice, items, popular, image }: Prod
       {/* Content */}
       <div className="p-6">
         <h3 className="text-xl font-bold text-card-foreground mb-2">{name}</h3>
-        
+
         {/* Price */}
         <div className="flex items-baseline gap-2 mb-4">
           <span className="text-3xl font-bold text-primary">₹{price}</span>

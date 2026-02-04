@@ -77,7 +77,7 @@ const FAQ = () => {
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">Still have questions?</p>
           <a
-            href="https://wa.me/919876543210?text=Hi! I have a question about LoveBox Gifts"
+            href="https://wa.me/8180895628?text=Hi! I have a question about LoveBox Gifts"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary font-semibold hover:underline"

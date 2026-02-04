@@ -5,7 +5,7 @@ import CountdownTimer from "./CountdownTimer";
 
 const Hero = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/919876543210?text=Hi! I want to pre-book a Valentine's gift hamper 💝", "_blank");
+    window.open("https://wa.me/8180895628?text=Hi! I want to pre-book a Valentine's gift hamper 💝", "_blank");
   };
 
   const scrollToProducts = () => {
@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="flex justify-center mb-6">
           <span className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-medium animate-pulse">
             <Heart className="w-4 h-4 fill-current" />
-            Valentine's Week Special 2025
+            Valentine's Week Special 2026
           </span>
         </div>
 
@@ -38,7 +38,7 @@ const Hero = () => {
 
         {/* Subheadline */}
         <p className="text-lg sm:text-xl text-muted-foreground text-center max-w-2xl mx-auto mb-8">
-          Curated gift hampers, chocolates, flowers & personalized surprises delivered right to your campus. 
+          Curated gift hampers, chocolates, flowers & personalized surprises delivered right to your campus.
           <span className="text-foreground font-medium"> Because love deserves more than just a text.</span>
         </p>
 

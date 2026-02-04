@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 font-bold text-xl text-foreground">
-            <Heart className="w-6 h-6 fill-primary text-primary" />
+            <img src="/logo.png" alt="Teasers Logo" className="w-10 h-10 rounded-full object-cover" />
             Teasers
           </a>
 

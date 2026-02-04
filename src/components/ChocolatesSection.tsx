@@ -11,27 +11,27 @@ const ChocolatesSection = () => {
     },
     {
       name: "Ferrero Rocher Box",
-      price: 399,
-      image: "https://images.unsplash.com/photo-1548907040-4baa42d10919?w=400&h=400&fit=crop",
+      price: 320,
+      image: "/ferrero-rocher.png",
       description: "16 pieces golden delight"
     },
     {
-      name: "Premium Chocolate Box",
-      price: 599,
-      image: "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=400&h=400&fit=crop",
-      description: "Assorted imported chocolates"
+      name: "Cadbury Silk Heart Box 💜",
+      price: 350,
+      image: "/cadbury-silk-heart.png",
+      description: "Heart-shaped Silk chocolates"
     },
     {
-      name: "Luxury Belgian Box 👑",
-      price: 999,
-      image: "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=400&h=400&fit=crop",
-      description: "24 handcrafted pieces"
+      name: "Silk Ganache Bar 💜",
+      price: 110,
+      image: "/silk-ganache.png",
+      description: "Smooth ganache delight"
     },
   ];
 
   const handleOrder = (name: string, price: number) => {
     const message = `Hi! I want to order ${name} (₹${price}) 🍫`;
-    window.open(`https://wa.me/919876543210?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/8180895628?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (

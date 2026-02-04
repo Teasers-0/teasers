@@ -5,14 +5,14 @@ const FlowersSection = () => {
   const flowers = [
     {
       name: "Single Red Rose 🌹",
-      price: 99,
-      image: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400&h=400&fit=crop",
+      price: 299,
+      image: "/single-red-rose.png",
       description: "Classic romantic gesture"
     },
     {
-      name: "Rose Bouquet (6 stems)",
-      price: 349,
-      image: "https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=400&h=400&fit=crop",
+      name: "Sunflower 🌻",
+      price: 399,
+      image: "/sunflower-rose.png",
       description: "Perfect for surprises"
     },
     {
@@ -31,7 +31,7 @@ const FlowersSection = () => {
 
   const handleOrder = (name: string, price: number) => {
     const message = `Hi! I want to order ${name} (₹${price}) 🌹`;
-    window.open(`https://wa.me/919876543210?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/8180895628?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
