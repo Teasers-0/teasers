@@ -17,7 +17,7 @@ const FlowersSection = () => {
     },
     {
       name: "Premium Bouquet (12 stems)",
-      price: 599,
+      price: 59,
       image: "https://images.unsplash.com/photo-1487530811176-3780de880c2d?w=400&h=400&fit=crop",
       description: "Make a grand statement"
     },
