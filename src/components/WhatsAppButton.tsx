@@ -1,7 +1,7 @@
 const WhatsAppButton = () => {
   return (
     <a
-      href="https://wa.me/8180895628?text=Hi! I want to order a Valentine's gift hamper 💝"
+      href="https://wa.me/8180895628?text=Hi! I'd like to order a surprise gift 🎁"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform duration-300 flex items-center justify-center animate-bounce"

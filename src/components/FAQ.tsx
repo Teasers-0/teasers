@@ -17,7 +17,7 @@ const FAQ = () => {
     },
     {
       question: "Can I get same-day delivery?",
-      answer: "Yes! Orders placed before 2 PM can be delivered same-day within city limits. Additional ₹99 for express delivery. For Valentine's Day, we recommend pre-booking to secure your slot.",
+      answer: "Yes! Orders placed before 2 PM can be delivered same-day within city limits. Additional ₹99 for express delivery. For special occasions, we recommend pre-booking early to secure your preferred time slot.",
     },
     {
       question: "What if my gift gets damaged during delivery?",
@@ -77,7 +77,7 @@ const FAQ = () => {
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">Still have questions?</p>
           <a
-            href="https://wa.me/8180895628?text=Hi! I have a question about LoveBox Gifts"
+            href="https://wa.me/8180895628?text=Hi! I have a question about Teasers"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary font-semibold hover:underline"

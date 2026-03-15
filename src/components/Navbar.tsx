@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Heart, Menu, X } from "lucide-react";
+import { Gift, Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,7 +44,7 @@ const Navbar = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button onClick={scrollToProducts} size="sm">
-              <Heart className="w-4 h-4 mr-2" />
+              <Gift className="w-4 h-4 mr-2" />
               Order Now
             </Button>
           </div>
@@ -74,7 +74,7 @@ const Navbar = () => {
                 </a>
               ))}
               <Button onClick={scrollToProducts} className="w-full mt-2">
-                <Heart className="w-4 h-4 mr-2" />
+                <Gift className="w-4 h-4 mr-2" />
                 Order Now
               </Button>
             </div>

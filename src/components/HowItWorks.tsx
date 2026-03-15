@@ -6,7 +6,7 @@ const HowItWorks = () => {
       icon: ShoppingBag,
       step: "01",
       title: "Choose Your Gift",
-      description: "Browse our curated hampers and pick the perfect surprise for your special one.",
+      description: "Browse our curated hampers and pick the perfect surprise for your special someone.",
     },
     {
       icon: CreditCard,
@@ -18,7 +18,7 @@ const HowItWorks = () => {
       icon: Truck,
       step: "03",
       title: "We Deliver the Magic",
-      description: "Sit back & relax! Your gift reaches your bae on time, with a smile guaranteed.",
+      description: "Sit back & relax! Your gift reaches them on time, with a smile guaranteed.",
     },
   ];
 
@@ -32,7 +32,7 @@ const HowItWorks = () => {
             How It Works 🎯
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Three simple steps to make your Valentine's Day unforgettable
+            Three simple steps to make any occasion truly unforgettable
           </p>
         </div>
 

@@ -1,4 +1,4 @@
-import { Heart, Instagram, MessageCircle, Mail, MapPin } from "lucide-react";
+import { Instagram, MessageCircle, Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -12,8 +12,8 @@ const Footer = () => {
               Teasers
             </h3>
             <p className="text-secondary-foreground/80 mb-4">
-              Making college love stories extra special with curated gift hampers,
-              delivered right to your campus. Pay easily via PhonePe!
+              Creating unforgettable surprise moments with curated gift hampers,
+              delivered right to your doorstep. Pay easily via PhonePe!
             </p>
             <div className="flex gap-4">
               <a
@@ -89,7 +89,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-secondary-foreground/20 mt-8 pt-8 text-center text-sm text-secondary-foreground/60">
-          <p>© 2025 Teasers. Made with ❤️ for college couples.</p>
+          <p>© 2025 Teasers. Crafted for every special moment. 🎁</p>
           <p className="mt-2">
             <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
             {" • "}

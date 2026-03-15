@@ -4,25 +4,25 @@ import magicCup from "../assets/magic-cup.png";
 const SpecialItems = () => {
     const products = [
         {
-            name: "Love Magic Cup ☕",
+            name: "Magic Reveal Cup ☕",
             price: 349,
             originalPrice: 499,
             items: [
                 "Magic Color Changing Mug",
                 "Reveals Design with Hot Liquid",
                 "High Quality Ceramic",
-                "Perfect Valentine Gift",
+                "Perfect Surprise Gift",
             ],
             image: magicCup,
         },
         {
-            name: "Love Teddies",
+            name: "Teddy Pair",
             price: 499,
             items: [
                 "Adorable Red & White Teddy Pair",
                 "Cuddling with Heart",
                 "Soft Plush Material",
-                "Perfect Valentine's Day Gift",
+                "Perfect for Any Occasion",
             ],
             image: "/love-teddies.png",
         },
@@ -33,7 +33,7 @@ const SpecialItems = () => {
                 "Red & White Teddy Bears",
                 "Decorative Tricycle Basket",
                 "Heart & Ribbon Details",
-                "Romantic Valentine Gift",
+                "Beautiful Gifting Option",
             ],
             image: "/teddy-basket.png",
         },
@@ -71,13 +71,13 @@ const SpecialItems = () => {
             image: "/cute-panda.png",
         },
         {
-            name: "Matching Love Bracelets",
+            name: "Matching Bracelets",
             price: 149,
             items: [
                 "Black & White Beaded Pair",
                 "Heart Charm Detail",
                 "Adjustable Size",
-                "Perfect Couple Gift",
+                "Perfect Duo Gift",
             ],
             image: "/matching-bracelets.png",
         },
@@ -88,18 +88,18 @@ const SpecialItems = () => {
                 "Elegant Red & Gold Rose",
                 "Premium Gift Box",
                 "Long-lasting Keepsake",
-                "Symbol of Eternal Love",
+                "Elegant Keepsake",
             ],
             image: "/golden-rose.png",
         },
         {
-            name: "Crystal Love Globe",
+            name: "Crystal Globe",
             price: 299,
             items: [
                 "3D Engraved Couple Design",
                 "LED Wooden Base",
                 "Premium Crystal Glass",
-                "Romantic Decorative Piece",
+                "Decorative Keepsake",
             ],
             image: "/crystal-love-globe.png",
         },
@@ -111,10 +111,10 @@ const SpecialItems = () => {
                 <div className="text-center mb-12">
                     <span className="text-primary font-medium text-sm uppercase tracking-wider">Special Additions</span>
                     <h2 className="text-3xl sm:text-4xl font-bold text-foreground mt-2 mb-4">
-                        Love Essentials 💖
+                        Surprise Add-Ons ✨
                     </h2>
                     <p className="text-muted-foreground max-w-2xl mx-auto">
-                        Magical gifts to make your celebration even more special
+                        Magical extras to make your celebration even more special
                     </p>
                 </div>
 

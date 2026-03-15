@@ -5,7 +5,7 @@ const Testimonials = () => {
     {
       name: "Priya S.",
       college: "Delhi University",
-      text: "My boyfriend was SO surprised! The hamper looked way more premium than I expected. Best ₹999 I ever spent 💕",
+      text: "My friend was SO surprised! The hamper looked way more premium than I expected. Best ₹999 I ever spent 💕",
       rating: 5,
     },
     {
@@ -33,12 +33,12 @@ const Testimonials = () => {
       <div className="container mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <span className="text-primary font-medium text-sm uppercase tracking-wider">Love Stories</span>
+          <span className="text-primary font-medium text-sm uppercase tracking-wider">Happy Moments</span>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mt-2 mb-4">
-            500+ Happy Couples 💑
+            500+ Happy Customers 🎉
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Don't just take our word for it — here's what students are saying
+            Don't just take our word for it — here's what people are saying
           </p>
         </div>
 
@@ -78,7 +78,7 @@ const Testimonials = () => {
         {/* Stats Bar */}
         <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
           {[
-            { number: "500+", label: "Happy Couples" },
+            { number: "500+", label: "Happy Customers" },
             { number: "50+", label: "Colleges Served" },
             { number: "4.9★", label: "Average Rating" },
             { number: "98%", label: "On-Time Delivery" },
