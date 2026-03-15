@@ -5,7 +5,7 @@ const FlowersSection = () => {
   const flowers = [
     {
       name: "Single Red Rose 🌹",
-      price: 299,
+      price: 50,
       image: "/single-red-rose.png",
       description: "Classic romantic gesture"
     },
